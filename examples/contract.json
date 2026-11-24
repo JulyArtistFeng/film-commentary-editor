@@ -1,0 +1,29 @@
+{
+  "skill": "film-commentary-editor",
+  "example_only": true,
+  "source_id": "example-film.mp4",
+  "source_duration": 100,
+  "output_duration": 10,
+  "spoiler_policy": "limited",
+  "clips": [
+    {
+      "id": "F1",
+      "source_in": 20,
+      "source_out": 30,
+      "start": 0,
+      "end": 10,
+      "speed": 1,
+      "kind": "excerpt"
+    }
+  ],
+  "commentary": [
+    {
+      "start": 0,
+      "end": 10,
+      "type": "fact",
+      "source_clip_ids": [
+        "F1"
+      ]
+    }
+  ]
+}

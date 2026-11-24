@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-24",
+  "skill": "film-commentary-editor",
+  "version": "2.0",
+  "baseline_commit": "9dca1960062d09797f6f1cb6b725662a0fc70017",
+  "owns": "基于影片/剧集素材制作有观点、有证据的解说，保持源片定位、人物关系、剧透范围与声画时序。",
+  "does_not_own": "不写游戏攻略，不剪实况高光，不生成假镜头冒充原片；翻译字幕不等于解说创作。",
+  "admission_rule": "影视语音/字幕、解说剪辑、镜头边界或非线性编辑的开源组件；不把下载器或内容发布平台计为解说工具。",
+  "ranking_scope": "GitHub Repository Search（每查询按stars降序取前50项）+ 定向核查知名相关项目；按本技能职责与许可/维护状态筛选后，在本次候选池内按实际stars排序取五项。不是对全GitHub的穷尽排名，也不是文学/视觉/视频质量排行榜。",
+  "queries": [
+    {
+      "q": "video scene detection",
+      "total_count": 557,
+      "incomplete_results": false,
+      "fetched_items": 50
+    },
+    {
+      "q": "subtitle video editing",
+      "total_count": 263,
+      "incomplete_results": false,
+      "fetched_items": 50
+    }
+  ],
+  "targeted_candidates": [
+    "Huanshere/VideoLingo",
+    "SubtitleEdit/subtitleedit",
+    "linyqh/NarratoAI",
+    "mifi/editly",
+    "Breakthrough/PySceneDetect"
+  ],
+  "sources": [
+    {
+      "rank_in_admitted_candidates": 1,
+      "repository": "Huanshere/VideoLingo",
+      "url": "https://github.com/Huanshere/VideoLingo",
+      "stars_snapshot": 19378,
+      "commit": "d2d5a046d97526ae4950294cc5663ad520b22f52",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "25a4ce2cbcfeee88a34eb72125b6514e07e8fbdfcdfd6f877cb77f4066a38383",
+          "bytes": 8258
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ],
+      "focus": "转写、分句、配音字幕协作",
+      "adapted_for_this_skill": "原片对白与作者解说分轨，翻译不能改说话人、否定或剧情证据"
+    },
+    {
+      "rank_in_admitted_candidates": 2,
+      "repository": "SubtitleEdit/subtitleedit",
+      "url": "https://github.com/SubtitleEdit/subtitleedit",
+      "stars_snapshot": 15122,
+      "commit": "af742dd93104bc611e3dbd4637b2e8517d3d7960",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "d54760d684056a4fc6084d1b5d2632f9aa879cfe6b2f77dddd0809751d6cd7fe",
+          "bytes": 3540
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "1bc4dcdb06d5507eacf67399674a5a6fa0f5f5270d15eefd7b4b2040319ceba0",
+          "bytes": 1071
+        }
+      ],
+      "focus": "可编辑字幕与时间修订",
+      "adapted_for_this_skill": "保留可修订字幕，渲染后查换行、可读时长和语音同步"
+    },
+    {
+      "rank_in_admitted_candidates": 3,
+      "repository": "linyqh/NarratoAI",
+      "url": "https://github.com/linyqh/NarratoAI",
+      "stars_snapshot": 11921,
+      "commit": "29a11b6cdf61b69ba90321fc5babc160e0ca2657",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README-en.md",
+          "sha256": "b5866db203e9397684f723447e1b8ee4f5b9434b046cd6a4c3c6fe67e64d6504",
+          "bytes": 7732
+        },
+        {
+          "path": "README.md",
+          "sha256": "c980bd48b72704b74ee0559c342824a35914422bda0c128eba02e5106d81c0fd",
+          "bytes": 10555
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "751a0f8c05fa0f2972c2071325cec50ed925d7e5c918195e8462e1d4f53f2b3e",
+          "bytes": 1062
+        }
+      ],
+      "focus": "素材分析到解说合成",
+      "adapted_for_this_skill": "为事实与评论保留来源定位，避免模型看不全却编全片剧情"
+    },
+    {
+      "rank_in_admitted_candidates": 4,
+      "repository": "mifi/editly",
+      "url": "https://github.com/mifi/editly",
+      "stars_snapshot": 5652,
+      "commit": "dc46674052eacd15ef6e0f563a58eb378b3804ad",
+      "license": "MIT",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "6221eb2ba4914a46b70ffd1220e69ba9367e93327453d8f016a68064462da61e",
+          "bytes": 29472
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c7b1aac19b0d6a4b66fce2db663cd51026082ec0c091cb17eca9ffe7c27fe2f9",
+          "bytes": 1071
+        }
+      ],
+      "focus": "非线性编辑与层叠时间线",
+      "adapted_for_this_skill": "源片时间和成片时间分别记录，变速与重复镜头不当成新剧情"
+    },
+    {
+      "rank_in_admitted_candidates": 5,
+      "repository": "Breakthrough/PySceneDetect",
+      "url": "https://github.com/Breakthrough/PySceneDetect",
+      "stars_snapshot": 5638,
+      "commit": "a696070d1a30d81b35ba9aff89de50eb80696f04",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "source_kind": "project or supporting component; not a complete replacement for this skill",
+      "review_scope": "Root README and LICENSE, relevant topical sections; public descriptions treated as capability claims, not performance evidence. No external code executed.",
+      "retrieved_materials": [
+        {
+          "path": "README.md",
+          "sha256": "df97aa4880898bf7f210b69e90b15a39676ff21dc76e33f180082a75dbcb9dfa",
+          "bytes": 7772
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "e855ca89e457a7d0b6b7c92ad475d1120a9a5b5bf4e5048c706b1b3889fbc349",
+          "bytes": 1505
+        }
+      ],
+      "focus": "镜头边界候选",
+      "adapted_for_this_skill": "切镜仅帮助定位，不等于叙事转折；逐段看片核事件"
+    }
+  ],
+  "excluded_or_not_top_five": [
+    "解说相关候选以影片定位、字幕或剪辑为依据；游戏攻略、实况集锦、自动上传器和纯下载器不作为等价解说工具。",
+    "本轮含字幕与剪辑组件，未将这些组件的能力说成完整剧情理解或自动点评。"
+  ],
+  "reuse_policy": "Only independently restated methods and project capability boundaries are integrated. No upstream code, templates, models or weights are vendored; no model installation, API call, commercial service or content publication is performed by this research."
+}
